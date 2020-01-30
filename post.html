@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <h3> {{ post.title }} </h3>
+            <p> {{ post.content }} </p>
+			<p> {{ post.descriprion }} </p>
+			<p> {{ post.price }} </p>
+			<p> {{ post.data_announcement }} </p>
+        </div>
+        <script src="{{ url_for('static', filename='js/jquery-3.4.1.min.js') }}"></script>
+    </body>
+</html>
